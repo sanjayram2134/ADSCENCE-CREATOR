@@ -5,7 +5,7 @@ chat = ChatGroq(
     temperature=0,
     model="llama3-70b-8192",
     # api_key="" # Optional if not set as an environment variable
-    groq_api_key = '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'
+    groq_api_key = '##token'
 )
 def chat_with_template(human_response):
     # Define the system message
